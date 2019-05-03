@@ -1,5 +1,5 @@
 const http = require('http');
-const { hostname } = require('./settings');
+const { port, hostname } = require('./settings');
 
 http.createServer(function (incomingReq, outerRes) {
 
@@ -55,4 +55,4 @@ http.createServer(function (incomingReq, outerRes) {
   outgoingReq.end();
 
 
-}).listen(8080);
+}).listen(port);

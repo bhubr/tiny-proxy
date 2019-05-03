@@ -1,3 +1,4 @@
 module.exports = {
-  hostname: 'example.com'
+  hostname: 'example.com',
+  port: 5000
 };
